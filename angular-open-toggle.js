@@ -1,4 +1,4 @@
-angular.module('directive.open_toggle', []).directive('openToggle', function($document) {
+angular.module('angular-open-toggle', []).directive('openToggle', function($document) {
   var openAttrs, _close;
   openAttrs = null;
   _close = angular.noop;
